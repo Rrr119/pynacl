@@ -1,6 +1,13 @@
 Changelog
 =========
 
+Unreleased
+----------
+* Added support for the ``crypto_kdf`` key derivation primitive, exposed via
+  the new low level ``nacl.bindings.crypto_kdf_derive_from_key`` and
+  ``nacl.bindings.crypto_kdf_keygen`` bindings and the high level
+  :class:`nacl.kdf.KDF` class.
+
 1.6.2 (2026-01-01)
 ------------------
 * Updated ``libsodium`` to 1.0.20-stable (2025-12-31 build) to resolve

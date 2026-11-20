@@ -128,6 +128,15 @@ from nacl.bindings.crypto_hash import (
     crypto_hash_sha512,
     crypto_hash_sha512_BYTES,
 )
+from nacl.bindings.crypto_kdf import (
+    crypto_kdf_BYTES_MAX,
+    crypto_kdf_BYTES_MIN,
+    crypto_kdf_CONTEXTBYTES,
+    crypto_kdf_derive_from_key,
+    crypto_kdf_KEYBYTES,
+    crypto_kdf_keygen,
+    crypto_kdf_PRIMITIVE,
+)
 from nacl.bindings.crypto_kx import (
     crypto_kx_client_session_keys,
     crypto_kx_keypair,
@@ -384,6 +393,13 @@ __all__ = [
     "crypto_hash_sha256_BYTES",
     "crypto_hash_sha512",
     "crypto_hash_sha512_BYTES",
+    "crypto_kdf_BYTES_MAX",
+    "crypto_kdf_BYTES_MIN",
+    "crypto_kdf_CONTEXTBYTES",
+    "crypto_kdf_KEYBYTES",
+    "crypto_kdf_PRIMITIVE",
+    "crypto_kdf_derive_from_key",
+    "crypto_kdf_keygen",
     "crypto_kx_PUBLIC_KEY_BYTES",
     "crypto_kx_SECRET_KEY_BYTES",
     "crypto_kx_SEED_BYTES",

@@ -55,6 +55,15 @@ In particular, the original expected results come from siphash's vectors.h,
 while the key and the input messages have been generated following
 the respective definitions in siphash's test.c.
 
+Key derivation
+^^^^^^^^^^^^^^
+
+The reference vectors for the :py:class:`nacl.kdf.KDF` implementation and its
+low level binding :py:func:`nacl.bindings.crypto_kdf_derive_from_key` are
+taken from libsodium's ``test/default/kdf.c`` and the corresponding expected
+outputs in ``test/default/kdf.exp``. They are stored in
+``tests/data/kdf-blake2b.txt``.
+
 Custom generated reference vectors
 ----------------------------------
 

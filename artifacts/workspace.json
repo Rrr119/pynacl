@@ -1,0 +1,17 @@
+{
+  "root": "/home/dev/feedback/uid30807",
+  "B": "/home/dev/feedback/uid30807",
+  "sha": "109e3f69a9dda044cf77f702b91a8079a3a63fcb",
+  "wslDistro": "Ubuntu-26.04",
+  "source": {
+    "owner": "pyca",
+    "repo": "pynacl",
+    "sha": "109e3f69a9dda044cf77f702b91a8079a3a63fcb"
+  },
+  "fork": {
+    "owner": "Rrr119",
+    "repo": "pynacl",
+    "cloneUrl": "https://github.com/Rrr119/pynacl.git"
+  },
+  "at": "2026-11-20T16:31:16.137Z"
+}

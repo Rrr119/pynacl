@@ -10,6 +10,7 @@ Contents
    secret
    signing
    hashing
+   key_derivation
    password_hashing
 
 
@@ -29,6 +30,7 @@ Support Features
     :glob:
 
     api/hash
+    api/kdf
     api/pwhash
     api/hashlib
 
